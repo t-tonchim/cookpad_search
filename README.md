@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cookpad_search'
+gem 'pebbles-cookpad_search'
 ```
 
 And then execute:
@@ -18,11 +18,14 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cookpad_search
+    $ gem install pebbles-cookpad_search
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+cpds -f [foodname]  #serach recipes by food.
+cpds -i [recipe_id] #search by recipe_id.
+```
 
 ## Development
 
@@ -32,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cookpad_search. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tomoyuki-tanaka/cookpad_search. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

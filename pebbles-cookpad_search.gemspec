@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Cookpad Search is sarch recipe from http://cookpad.com on command line.}
   spec.description   = %q{Usage: cpd food_name}
-  spec.homepage      = "https://github.com/tomoyuki-tanaka/pebbles-cookpad_search"
+  spec.homepage      = "https://github.com/tomoyuki-tanaka/cookpad_search"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
