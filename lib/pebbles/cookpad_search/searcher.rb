@@ -63,6 +63,8 @@ ID:#{recipe[:id]}  #{recipe[:title]}
             f.read
           end
           html
+        rescue OpenURI::HTTPError => ex
+          puts "存在しないか、フﾟレミアム会員限定レシヒﾟてﾞす。"
         end
       end
     end
