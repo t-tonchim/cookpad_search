@@ -5,6 +5,6 @@ require 'pebbles/cookpad_search/parser'
 
 module Pebbles
   module CookpadSearch
-    DEFAULT_URL = "http://cookpad.com/"
+    DEFAULT_URL = "https://cookpad.com/"
   end
 end
