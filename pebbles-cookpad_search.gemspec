@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["tomoyuki-tanaka"]
   spec.email         = ["masuminium5@gmail.com"]
 
-  spec.summary       = %q{Cookpad Search is sarch recipe from http://cookpad.com on command line.}
+  spec.summary       = %q{Cookpad Search is sarch recipe from https://cookpad.com on command line.}
   spec.description   = %q{Usage: cpd food_name}
   spec.homepage      = "https://github.com/tomoyuki-tanaka/cookpad_search"
   spec.license       = "MIT"
